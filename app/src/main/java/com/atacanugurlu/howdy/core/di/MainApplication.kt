@@ -1,7 +1,7 @@
-package com.atacanugurlu.howdy
+package com.atacanugurlu.howdy.core.di
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
-class MainApp : Application()
+class MainApplication : Application()
